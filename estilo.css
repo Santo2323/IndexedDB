@@ -1,0 +1,62 @@
+body{
+    color:#222;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+body, h2, div, input, button{
+    padding: 0;
+    margin: 0;
+}
+.nombres{
+    max-width: 600px;
+    margin: auto;
+    margin-top: 40px;
+}
+
+.nombre{
+    display: grid;
+    grid-template-columns: minmax(100px,300px) 1fr;
+    border-top: 1px solid #48e;
+}
+
+.options{
+    display: flex;
+    justify-self: end;
+}
+
+.add-nombres{
+    margin-top: 40px;
+}
+
+#nombre, #add{
+    padding: 4px 8px;
+}
+
+.options button{
+    background: transparent;
+    border: none;
+    margin: 4px 10px;
+}
+
+.delete:hover{
+    color: #999;
+}
+
+.imposible{
+    color: #ccc;
+}
+
+.posible{
+    color: #37d;
+}
+
+.posible:hover{
+    color: #6af;
+}
+
+.nombre h2{
+    padding: 6px;
+    color: #48e;
+    outline-color: #48e;
+}
